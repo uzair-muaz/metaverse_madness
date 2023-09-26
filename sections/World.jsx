@@ -44,9 +44,13 @@ const World = () => (
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
 
-        <div className="absolute top-[40%] left-[20%] w-[180px] h-[138px] p-[6px] rounded-3xl bg-[#5D6680]">
+        <div className="absolute hidden lg:block top-[40%] left-[20%] w-[180px] h-[138px] p-[6px] rounded-3xl bg-[#5D6680]">
           <div className="relative flex items-center">
-            <img src="arena-01.png" alt="people" className="w-full h-full object-cover" />
+            <img
+              src="arena-01.png"
+              alt="people"
+              className="w-full h-full object-cover"
+            />
             <div className="w-6 h-6 absolute top-1/2 left-2 z-30">
               <img src="people-04.png" alt="people" className="w-full h-full" />
             </div>
@@ -65,9 +69,13 @@ const World = () => (
           </div>
         </div>
 
-        <div className="absolute top-[10%] right-[30%] w-[180px] h-[138px] p-[6px] rounded-3xl bg-[#5D6680]">
+        <div className="absolute  hidden lg:block top-[10%] right-[20%] w-[180px] h-[138px] p-[6px] rounded-3xl bg-[#5D6680]">
           <div className="relative flex items-center">
-            <img src="arena-02.png" alt="people" className="w-full h-full object-cover" />
+            <img
+              src="arena-02.png"
+              alt="people"
+              className="w-full h-full object-cover"
+            />
             <div className="w-6 h-6 absolute top-1/2 left-2 z-30">
               <img src="people-04.png" alt="people" className="w-full h-full" />
             </div>
@@ -81,7 +89,7 @@ const World = () => (
               +264 has joined
             </div>
             <div className="absolute h-6 top-[75%] left-3 text-white text-base flex items-center font-bold">
-              The Upside Down
+              Hawkins Labs
             </div>
           </div>
         </div>
